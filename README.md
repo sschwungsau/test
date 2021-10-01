@@ -251,13 +251,13 @@ Brush size, minimum size for pressure sensitivity and the toggle buttons are the
 **[F10]** goes to previous layer
 **[F11]** goes to next layer
 **[F12]** toggles hide on current layer
-**[Shift]** + [F10] moves the current layer under the previous layer
-**[Shift]** + [F11] moves the current layer above the next layer
+**[Shift]** + **[F10]** moves the current layer under the previous layer
+**[Shift]** + **[F11**] moves the current layer above the next layer
 **[Shift]** + [F9] experimental merge of the currently layer onto the previous layer
-**[Shift]** + [delete] to delete current layer
+**[Shift]** + **[delete**] to delete current layer
 
-**[Shift]** + [Ctrl] + [f] to fill the current layer with the currently selected color at currently selected opactiy.
-**[Shift]** + [v] to enter transform mode (currently only move) ...to toggle it off you may only hit [v]
+**[Shift]** **+ [Ctrl] + [f]** to fill the current layer with the currently selected color at currently selected opactiy.
+**[Shift]** + **[v]** to enter transform mode (currently only move) ...to toggle it off you may only hit **[v]**
 
 ---
 
@@ -309,13 +309,13 @@ Please, be patient and careful when you operate the hotkeys, not because there's
 - **[i]** to add new brush image and toggle on **brush image edit**. It opens a little rectangular selector. More on that one further down!
 - **[Ctrl]+[Shift]+[i]** toggles color mode, either using the original colors of the images, tinted by current color, or only use current color, ignoring image colors.
 
-**brush image edit** ACTIVE:
+**brush image edit ACTIVE **:
 
 - **[Shift]+[i]** deletes only the previous image. [don't ask, I wasn't done, yet!] ![:shrug:](https://www.taron.de/forum/images/smilies/icon_shrug.gif)
 - **[Ctrl]+[i]** paste currently active brush image. [all just remains of my tests] ![:geek:](https://www.taron.de/forum/images/smilies/icon_e_geek.gif)
 - **[j]** toggles perspective transformation on/off, approximating the perspective of the image taken as suggested by your selector rectangle.
 
-**brush image edit** OFF:
+**brush image edit OFF**:
 
 - **[Shift]+[i]** to delete all images. [all still temporary] ![:?](https://www.taron.de/forum/images/smilies/icon_e_confused.gif)
 - **[Ctrl]+[i]** toggles paint modes. When ON it will use the color and material of the image. When OFF it will flatten the material. Using Average when OFF works like standard Average blending. When ON Average samples the color in the center of the brush and paints the complete image tinted by that color!
@@ -343,8 +343,8 @@ Mask mode now actually masks the image.
 
 Again, when you press [i] you automatically add an image, bringing up the image selector Quad. The editing of it was not finished, but you can drag the corners separately or grab it by the edges to adjust an entire edge or grab it by the center to move the whole Quad. However...
 
-- [right click] ON THE CENTER to turn your Quad into a square. It will figure out the average size based on all edges, you will see!
-- [right click] ON THE EDGE (not the corner) will freeze the frame so you can paint over it without worries. This is cool when you want to make an animation or animated brush progression. I have to make a little youtube video for that! [right click] ON THE EDGE again and you will unfreeze the Quad again.
+- **[right click]** ON THE CENTER to turn your Quad into a square. It will figure out the average size based on all edges, you will see!
+- [right click] ON THE EDGE (not the corner) will freeze the frame so you can paint over it without worries. This is cool when you want to make an animation or animated brush progression. I have to make a little youtube video for that! **[right click]** ON THE EDGE again and you will unfreeze the Quad again.
 
 
 You can make a sequence of images to use as brush image, effectively creating an animation. To control how it plays during painting you have currently two experimental choices by means of a toggle in the "Image Board" GUI piece in the upper left corner:
