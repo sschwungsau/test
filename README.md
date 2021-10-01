@@ -1,5 +1,3 @@
-# verveManual
-
 # The Interface
 
 I wanted to make the interface as little distracting as possible so I opted against a clutter of icons and labels. Instead each major portion of the interface has one location that displays the currently important information. It's probably quite unusual and I don't know how well it will be received, but I- obviously- like it.
@@ -166,95 +164,120 @@ Brush size, minimum size for pressure sensitivity and the toggle buttons are the
 
 ## Controlling light...
 
-**[Shift] + [cursor keys]** move the light source along x and y
-[Shift] + [page up/down] moves the light source along z (in and out of the image)
-**[L]** will set the light color to the currently selected color
-**[Shift] + [L]** will set the ambient light color to the currently selected color
+* **[Shift] + [cursor keys]** move the light source along x and y
+
+* [Shift] + [page up/down] moves the light source along z (in and out of the image)
+
+* **[L]** will set the light color to the currently selected color
+
+* **[Shift] + [L]** will set the ambient light color to the currently selected color
 
 ---
 
 ## Brushes...
 
-**[1]...[8]** are the 8 different experimental brushes currently available. Brush [4] reacts to the tablet's pen rotation.
-**[w]** toggles pressure sensitive brush size
-**[e]** toggles pressure sensitive brush opacity
-**[r]** toggles brush blur
+* **[1]...[8]** are the 8 different experimental brushes currently available. Brush [4] reacts to the tablet's pen rotation.
 
-**[q]** toggles mask painting. The mask currently just acts as a border condition for the fluids. You can still paint over the area.
+* **[w]** toggles pressure sensitive brush size
 
-**[Shift] + [q]** sets current layer's alpha channel as mask for fluids.
-**[Ctrl] + [w]** toggles "image warp" mode. In this mode your brush warps image coordinates only. Undo only works outside of warp mode, switching between the image before and after the warp. Currently there's no undo within the warp mode, but that won't destroy your image!
-\- Hold **[Ctrl]** during painting in warp mode to restore original image coordinates inside the brush radius!
-**[Ctrl]+[Shift]+[w]** will reapply the last used warp. This way you can apply the same warp to other layers or have some fun reapplying the same warp a few times, hehe. ![:)](https://www.taron.de/forum/images/smilies/icon_e_smile.gif)
+* **[e]** toggles pressure sensitive brush opacity
+
+* **[r]** toggles brush blur
+
+* **[q]** toggles mask painting. The mask currently just acts as a border condition for the fluids. You can still paint over the area.
+
+* **[Shift] + [q]** sets current layer's alpha channel as mask for fluids.
+
+* **[Ctrl] + [w]** toggles "image warp" mode. In this mode your brush warps image coordinates only. Undo only works outside of warp mode, switching between the image before and after the warp. Currently there's no undo within the warp mode, but that won't destroy your image!
+
+- Hold **[Ctrl]** during painting in warp mode to restore original image coordinates inside the brush radius!
+
+* **[Ctrl]+[Shift]+[w]** will reapply the last used warp. This way you can apply the same warp to other layers or have some fun reapplying the same warp a few times, hehe. ![:)](https://www.taron.de/forum/images/smilies/icon_e_smile.gif)
 
 ---
 
 ## Controlling the background/canvas...
 
-**[p]** will set the background color to the currently selected color
-![:!:](https://www.taron.de/forum/images/smilies/icon_exclaim.gif)**[Ctrl]+[p]** toggles through canvas texture modes. 1.woven canvas 2.custom canvas (creates a canvas texture from the current layer's paint build-up) 3.turbulent papyrus ...then rotates back to 1.
-![:!:](https://www.taron.de/forum/images/smilies/icon_exclaim.gif)**[t]** toggles the canvas texture on/off
-![:!:](https://www.taron.de/forum/images/smilies/icon_exclaim.gif)**[Shift]+[t]** inverts the canvas texture
-**[h]** toggles High Quality mode on/off for super-sampling of the lighting
-**[Shift]+[d]** toggles dithering on/off
-**[Ctrl]+[d]** makes whole canvas wet, if drying is turned on.
+* **[p]** will set the background color to the currently selected color
+
+* **[Ctrl]+[p]** toggles through canvas texture modes. 1.woven canvas 2.custom canvas (creates a canvas texture from the current layer's paint build-up) 3.turbulent papyrus ...then rotates back to 1.
+* **[t]** toggles the canvas texture on/off
+
+* **[Shift]+[t]** inverts the canvas texture
+
+* **[h]** toggles High Quality mode on/off for super-sampling of the lighting
+
+* **[Shift]+[d]** toggles dithering on/off
+
+* **[Ctrl]+[d]** makes whole canvas wet, if drying is turned on.
 
 ---
 
 ## Controlling the image...
 
-[delete] will clear the image! *( In mask mode it will clear the mask, in warp mode it will clear the warp! )*
-[F5] toggle mirror modes (none, left half to right, right half to left)
-[Shift]+[F5] commits mirror mode, burning it to the image. This way you can design symmetrical but then continue normally.
-[F6] flip image horizontally (doesn't actually flip the image, but you can continue to paint on it)
-[F7] flip image vertically (...as above)
-[Alt]+[Shift]+[LMB] to pan the image
-[Alt]+[Ctrl]+[LMB] to zoom in and out
+* **[delete]** will clear the image! *( In mask mode it will clear the mask, in warp mode it will clear the warp! )*
 
-[Alt]+[Shift]+[Ctrl]+[LMB] rotate the canvas
-[Alt]+[Shift]+[Ctrl]+[RMB] reset rotatation of the canvas and stops "spinning", if active.
-[-] and [=] control canvas spinning speed.
+* **[F5]** toggle mirror modes (none, left half to right, right half to left)
 
-[numpad +] to zoom in (2x increments)
-[numpad -] to zoom out (...)
-[Home] to reset zoom, pan, rotation and stops spinning
-[Alt]+[Shift]+[RMB] or [Alt]+[Ctrl]+[RMB] also resets zoom and pan
+* **[Shift]+[F5]** commits mirror mode, burning it to the image. This way you can design symmetrical but then continue normally.
+
+* **[F6]** flip image horizontally (doesn't actually flip the image, but you can continue to paint on it)
+
+* **[F7]** flip image vertically (...as above)
+
+* **[Alt]+[Shift]+[LMB**] to pan the image
+
+* **[Alt]+[Ctrl]+[LMB**] to zoom in and out
+
+* **[Alt]+[Shift]+[Ctrl]+[LMB]** rotate the canvas
+
+* **[Alt]+[Shift]+[Ctrl]+[RMB]** reset rotatation of the canvas and stops "spinning", if active.
+
+* **[-]** and **[=]** control canvas spinning speed.
+
+* **[numpad +]** to zoom in (2x increments)
+
+* **[numpad -]** to zoom out (...)
+
+* **[Home]** to reset zoom, pan, rotation and stops spinning
+
+* **[Alt]+[Shift]+[RMB**] or **[Alt]+[Ctrl]+[RMB]** also resets zoom and pan
 
 ---
 
 ## Layers...
 
-[F9] adds a new layer
-[F10] goes to previous layer
-[F11] goes to next layer
-[F12] toggles hide on current layer
-[Shift] + [F10] moves the current layer under the previous layer
-[Shift] + [F11] moves the current layer above the next layer
-[Shift] + [F9] experimental merge of the currently layer onto the previous layer
-[Shift] + [delete] to delete current layer
+**[F9]** adds a new layer
+**[F10]** goes to previous layer
+**[F11]** goes to next layer
+**[F12]** toggles hide on current layer
+**[Shift]** + [F10] moves the current layer under the previous layer
+**[Shift]** + [F11] moves the current layer above the next layer
+**[Shift]** + [F9] experimental merge of the currently layer onto the previous layer
+**[Shift]** + [delete] to delete current layer
 
-[Shift] + [Ctrl] + [f] to fill the current layer with the currently selected color at currently selected opactiy.
-[Shift] + [v] to enter transform mode (currently only move) ...to toggle it off you may only hit [v]
+**[Shift]** + [Ctrl] + [f] to fill the current layer with the currently selected color at currently selected opactiy.
+**[Shift]** + [v] to enter transform mode (currently only move) ...to toggle it off you may only hit [v]
 
 ---
 
 ## Grid...
 
-[g] toggles visibility of the grid
+**[g]** toggles visibility of the grid
 
 Editing the grid:
-[Ctrl]+[g] toggles editing of the grid
-[LMB] dragging controls opactiy (can go positive and negative)
-[Alt] + [LMB] free rotation
-[Alt] + [RMB] horizontal rotation
-[Alt] + [Shift] + [LMB] drag horizontal and vertical position of the grid along current rotation axis
-[Alt] + [Ctrl] + [LMB] drag horizontal and depth position along current rotation axis
-[Shift] + [LMB] drag horizontal and vertical camera axis
-[Ctrl] + [LMB] drag horizontal and depth camera axis
+**[Ctrl]+[g]** toggles editing of the grid
+**[LMB]** dragging controls opactiy (can go positive and negative)
+**[Alt] + [LMB]** free rotation
+**[Alt] + [RMB]** horizontal rotation
+**[Alt] + [Shift] + [LMB]** drag horizontal and vertical position of the grid along current rotation axis
+**[Alt] + [Ctrl] + [LMB]** drag horizontal and depth position along current rotation axis
+**[Shift] + [LMB]** drag horizontal and vertical camera axis
+**[Ctrl] + [LMB]** drag horizontal and depth camera axis
 
-Mousewheel controls amount of subdivisions of the grid box
-[Shift] + Mousewheel controls lens distortion
-[Ctrl] + Mousewheel controls field of view
+**Mousewheel** controls amount of subdivisions of the grid box
+**[Shift] + Mousewheel** controls lens distortion
+**[Ctrl] + Mousewheel** controls field of view
 
 \-------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -267,9 +290,9 @@ Mousewheel controls amount of subdivisions of the grid box
 ## PAINT MODES
 
 There are now three paint modes with which you can paint:
-(=) Absolute: In this mode your paint will not accumulate on the canvas, but only rise up to the chosen build-up amount. It's ideal for sketching.
-(>) Accumulative: This is the original paint mode, accumulating material on the canvas like it always did. It's ideal for painting.
-(+) Additive: This modes adds color values to existing color like adding light, in a way, eventually creating a glow. There is also a new parameter on top for an interactive glowing effect. It's fun. It's good for...ehm... fun. And all things light!
+**(=)** Absolute: In this mode your paint will not accumulate on the canvas, but only rise up to the chosen build-up amount. It's ideal for sketching.
+**(>)** Accumulative: This is the original paint mode, accumulating material on the canvas like it always did. It's ideal for painting.
+**(+)** Additive: This modes adds color values to existing color like adding light, in a way, eventually creating a glow. There is also a new parameter on top for an interactive glowing effect. It's fun. It's good for...ehm... fun. And all things light!
 
 **
 
@@ -283,25 +306,25 @@ Please, be patient and careful when you operate the hotkeys, not because there's
 
 
 
-- [i] to add new brush image and toggle on **brush image edit**. It opens a little rectangular selector. More on that one further down!
-- [Ctrl]+[Shift]+[i] toggles color mode, either using the original colors of the images, tinted by current color, or only use current color, ignoring image colors.
+- **[i]** to add new brush image and toggle on **brush image edit**. It opens a little rectangular selector. More on that one further down!
+- **[Ctrl]+[Shift]+[i]** toggles color mode, either using the original colors of the images, tinted by current color, or only use current color, ignoring image colors.
 
 **brush image edit** ACTIVE:
 
-- [Shift]+[i] deletes only the previous image. [don't ask, I wasn't done, yet!] ![:shrug:](https://www.taron.de/forum/images/smilies/icon_shrug.gif)
-- [Ctrl]+[i] paste currently active brush image. [all just remains of my tests] ![:geek:](https://www.taron.de/forum/images/smilies/icon_e_geek.gif)
-- [j] toggles perspective transformation on/off, approximating the perspective of the image taken as suggested by your selector rectangle.
+- **[Shift]+[i]** deletes only the previous image. [don't ask, I wasn't done, yet!] ![:shrug:](https://www.taron.de/forum/images/smilies/icon_shrug.gif)
+- **[Ctrl]+[i]** paste currently active brush image. [all just remains of my tests] ![:geek:](https://www.taron.de/forum/images/smilies/icon_e_geek.gif)
+- **[j]** toggles perspective transformation on/off, approximating the perspective of the image taken as suggested by your selector rectangle.
 
 **brush image edit** OFF:
 
-- [Shift]+[i] to delete all images. [all still temporary] ![:?](https://www.taron.de/forum/images/smilies/icon_e_confused.gif)
-- [Ctrl]+[i] toggles paint modes. When ON it will use the color and material of the image. When OFF it will flatten the material. Using Average when OFF works like standard Average blending. When ON Average samples the color in the center of the brush and paints the complete image tinted by that color!
+- **[Shift]+[i]** to delete all images. [all still temporary] ![:?](https://www.taron.de/forum/images/smilies/icon_e_confused.gif)
+- **[Ctrl]+[i]** toggles paint modes. When ON it will use the color and material of the image. When OFF it will flatten the material. Using Average when OFF works like standard Average blending. When ON Average samples the color in the center of the brush and paints the complete image tinted by that color!
 
 
 **brushes that use images**:
 
-- Brush #9 with images... well, you'll see, it will just paint with the image spread across the bristles. (Crazy fun, if you know what you're doing!)
-- Brush #0 only works with images. If there is no image, it will not draw anything!!! The little brush interface dials will do very specific things to this brush. Go explore, hehe! I'll explain more later, I promise!
+- Brush **#9** with images... well, you'll see, it will just paint with the image spread across the bristles. (Crazy fun, if you know what you're doing!)
+- Brush **#0** only works with images. If there is no image, it will not draw anything!!! The little brush interface dials will do very specific things to this brush. Go explore, hehe! I'll explain more later, I promise!
 
 ---
 
@@ -309,10 +332,10 @@ Please, be patient and careful when you operate the hotkeys, not because there's
 
 Mask mode now actually masks the image.
 
-- [q] toggles mask active status without changing the mask.
-- [shift]+[q] picks up the current layer's paint as mask.
-- [ctrl]+[q] toggles the mask mode on/off
-- [ctrl]+[shift]+[q] inverts the mask
+- **[q]** toggles mask active status without changing the mask.
+- **[shift]+[q]** picks up the current layer's paint as mask.
+- **[ctrl]+[q]** toggles the mask mode on/off
+- **[ctrl]+[shift]+[q]** inverts the mask
 
 ---
 
@@ -335,19 +358,19 @@ Try the following...
 
 #### mini tutorial:
 
-\- select white color
-\- select brush #2 (trust me, you'll understand why I suggest that now!)
-\- hit [i]
-\- keep the Selector Quad where it is for now!
-\- [right click] on an edge of the Quad (not a corner!)
-\- make a single small dot in the center
-\- hit [i] again, which will store the image!
-\- hit [i] again to add a new image!
-\- make some more dots around the center!
-\- hit [i] to store and [i] to add a new image again
-\- make some more dots and make the center of it a bit more dense!
-\- [i], [i]
-\- add more and more stuff and keep doing that for a few images more!
+* select white color
+* select brush #2 (trust me, you'll understand why I suggest that now!)*
+* hit **[i]**
+* keep the Selector Quad where it is for now!
+* **[right click]** on an edge of the Quad (not a corner!)
+* make a single small dot in the center
+* hit **[i]** again, which will store the image!
+* hit **[i]** again to add a new image!
+* make some more dots around the center!
+* hit **[i]** to store and **[i]** to add a new image again
+* make some more dots and make the center of it a bit more dense!
+* **[i]**, **[i]** add more and more stuff and keep doing that for a few images more!*
+
 When you've had enough, make sure you're done with your images (Selector Quad is no longer visible) and then select Brush #9.
 If you have pen pressure, you will see that it animates through the images according to your pen pressure. IT DOES NOT WORK WITH MOUSE! (I'm sorry, it was just a test, you know! Maybe I'll have a look into it for those of you, who only have mouse.)
 
